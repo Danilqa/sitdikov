@@ -3,13 +3,14 @@
         "dev": "yarn webpack-dev-server --mode development"
     },
     "dependencies": {
-        "react": "16.7.0"
+        "react": "16.7.0",
+        "react-dom": "16.7.0"
     },
     "devDependencies": {
         "@types/node": "10.12.18",
         "@types/react": "16.7.21",
         "@types/react-dom": "16.0.11",
-        "react-dom": "16.7.0",
+        "react": "16.7.0",
         "ts-loader": "5.3.3",
         "typescript": "3.2.4",
         "webpack": "4.29.0",
