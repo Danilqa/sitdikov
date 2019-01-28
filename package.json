@@ -1,4 +1,5 @@
 {
+    "license": "ISC",
     "scripts": {
         "dev": "yarn webpack-dev-server --config=config/webpack.config.dev.js --mode development",
         "build": "yarn webpack --config=config/webpack.config.prod.js --mode production"
