@@ -24,7 +24,9 @@ to DOM-world and is used on top level of application.
 * `html-webpack-plugin` - it generates index.html based on template and includes all required js dependencies 
   with hashed names.
 * `ts-loader` - it's used to load typescript code with webpack. 
+* `jest` - testing framework to write unit specs (including snapshots).
 * `typescript` - is a superset of JavaScript that have static type-checking and ECMAScript features.
+* `ts-jest` - it lets you use Jest to test projects written in TypeScript.
 * `webpack` - it creates app bundle for dev. mode and production. 
 * `webpack-cli` - cli for webpack, provides commands for tasks. 
 * `webpack-dev-server` - provide environment for development, including hot-reloading feature.
