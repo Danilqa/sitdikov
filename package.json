@@ -1,10 +1,11 @@
 {
-    "license": "ISC",
+    "license": "-",
     "scripts": {
         "dev": "yarn webpack-dev-server --config=config/webpack.config.dev.js --mode development",
         "build": "yarn webpack --config=config/webpack.config.prod.js --mode production"
     },
     "dependencies": {
+        "core-ui-kit": "*",
         "react": "16.7.0",
         "react-dom": "16.7.0"
     },

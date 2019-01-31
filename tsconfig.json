@@ -1,11 +1,25 @@
 {
+    "compileOnSave": false,
     "compilerOptions": {
+        "outDir": "./dist/types",
         "sourceMap": true,
-        "outDir": "./dist/",
-        "noImplicitAny": true,
-        "module": "es6",
+        "moduleResolution": "node",
+        "emitDecoratorMetadata": true,
+        "noUnusedParameters": true,
+        "noUnusedLocals": true,
+        "experimentalDecorators": true,
+        "declaration": true,
         "target": "es5",
         "jsx": "react",
-        "allowJs": true
-    }
+        "typeRoots": [
+            "node_modules/@types"
+        ],
+        "lib": [
+            "es2017",
+            "dom"
+        ]
+    },
+    "include": [
+        "src"
+    ]
 }

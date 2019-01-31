@@ -891,19 +891,12 @@ core-js@^1.0.0:
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-1.2.7.tgz#652294c14651db28fa93bd2d5ff2983a4f08c636"
   integrity sha1-ZSKUwUZR2yj6k70tX/KYOk8IxjY=
 
-core-ui-kit@../core-ui-kit-0.1.0.tgz:
+core-ui-kit@./uikit.tar.gz:
   version "0.1.0"
-  uid "8a05414c8b04fcad5041be83d6965b35899f42aa"
-  resolved "../core-ui-kit-0.1.0.tgz#8a05414c8b04fcad5041be83d6965b35899f42aa"
+  resolved "./uikit.tar.gz#66a17c643551ea65ca9f69a0a52b39d5303a0300"
   dependencies:
     react "16.7.0"
-    styled-components "4.1.3"
-
-"core-ui-kit@file:../core-ui-kit-0.1.0.tgz":
-  version "0.1.0"
-  resolved "file:../core-ui-kit-0.1.0.tgz#8a05414c8b04fcad5041be83d6965b35899f42aa"
-  dependencies:
-    react "16.7.0"
+    react-dom "16.7.0"
     styled-components "4.1.3"
 
 core-util-is@~1.0.0:
