@@ -2,13 +2,12 @@
     "compileOnSave": false,
     "compilerOptions": {
         "outDir": "./dist/types",
-        "sourceMap": true,
         "moduleResolution": "node",
         "emitDecoratorMetadata": true,
         "noUnusedParameters": true,
         "noUnusedLocals": true,
         "experimentalDecorators": true,
-        "declaration": true,
+        "declaration": false,
         "target": "es5",
         "jsx": "react",
         "typeRoots": [

@@ -4,7 +4,7 @@ const CleanWebpackPlugin = require('clean-webpack-plugin');
 
 module.exports = {
     entry: [
-        path.join(__dirname, '../src/index.ts')
+        path.join(__dirname, '../../src/index.ts')
     ],
     module: {
         rules: [
@@ -20,10 +20,10 @@ module.exports = {
     },
     output: {
         filename: '[name].[hash].js',
-        path: path.resolve(__dirname, '../build')
+        path: path.resolve(__dirname, '../../dist')
     },
     plugins: [
-        new CleanWebpackPlugin('build', { root: path.resolve(__dirname, '../') }),
+        new CleanWebpackPlugin('dist', { root: path.resolve(__dirname, '../') }),
         new HtmlWebpackPlugin({ template: './public/index.html' })
     ]
 };

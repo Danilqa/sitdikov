@@ -1,8 +1,8 @@
 {
     "license": "-",
     "scripts": {
-        "dev": "yarn webpack-dev-server --config=config/webpack.config.dev.js --p --progress --mode development",
-        "build": "yarn webpack --config=config/webpack.config.prod.js --p --progress --mode production"
+        "dev": "yarn webpack-dev-server --config=config/webpack/webpack.config.dev.js --p --progress --mode development",
+        "build": "yarn webpack --config=config/webpack/webpack.config.prod.js --p --progress --mode production"
     },
     "dependencies": {
         "react": "16.7.0",

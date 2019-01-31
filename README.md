@@ -21,7 +21,8 @@ to DOM-world and is used on top level of application.
 
 * `@types/*` - contains type definitions for specific library.
 * `clean-webpack-plugin` - it's used for clean bundle before run building.
-* `html-webpack-plugin` - it generates index.html based on template and includes all required js dependencies.
+* `html-webpack-plugin` - it generates index.html based on template and includes all required js dependencies 
+  with hashed names.
 * `ts-loader` - it's used to load typescript code with webpack. 
 * `typescript` - is a superset of JavaScript that have static type-checking and ECMAScript features.
 * `webpack` - it creates app bundle for dev. mode and production. 
@@ -58,7 +59,6 @@ Structure example:
         /jest
             /setup
                 console.setup.js
-                styles.setup.js
         /webpack
             webpack.config.dev.js
             webpack.config.prod.js            
@@ -78,13 +78,12 @@ Structure example:
                 request-method.enum.ts
             /services
                 /app
-                    layout-maker.app.service.ts
+                    login.app.service.ts
                 /data
                     base.data.service.ts
             /types
                 common.ts
                 dictionary.ts
-                styles.ts
             /utils
                 utils.ts
         /components
