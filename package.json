@@ -5,9 +5,9 @@
         "build": "yarn webpack --config=config/webpack.config.prod.js --mode production"
     },
     "dependencies": {
-        "core-ui-kit": "*",
         "react": "16.7.0",
-        "react-dom": "16.7.0"
+        "react-dom": "16.7.0",
+        "styled-components": "4.1.3"
     },
     "devDependencies": {
         "@types/node": "10.12.18",
