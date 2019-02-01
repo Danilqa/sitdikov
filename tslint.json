@@ -1,0 +1,5 @@
+{
+    "extends": [
+        "codestyle-tslint/tslint.json"
+    ]
+}
