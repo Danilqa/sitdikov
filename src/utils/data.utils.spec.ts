@@ -1,3 +1,4 @@
+/* tslint:disable:no-magic-numbers comment-type */
 import { DataUtils } from './data.utils';
 
 describe('DataUtils', () => {

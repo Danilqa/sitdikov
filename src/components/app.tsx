@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { PureComponent, ReactNode } from 'react';
-import { Button, ButtonModeType, Init, theme } from 'core-ui-kit';
+import { Button, ButtonModeType, Init, theme } from '@arrival/core-ui-kit';
 
 export class App extends PureComponent {
 

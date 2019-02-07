@@ -1,5 +1,5 @@
 {
     "extends": [
-        "codestyle-tslint/tslint.json"
+        "@eigenspace/codestyle/tslint.json"
     ]
 }

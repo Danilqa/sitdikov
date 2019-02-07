@@ -48,6 +48,11 @@
     lodash "^4.17.10"
     to-fast-properties "^2.0.0"
 
+"@eigenspace/codestyle@1.1.7":
+  version "1.1.7"
+  resolved "https://registry.yarnpkg.com/@eigenspace/codestyle/-/codestyle-1.1.7.tgz#4cce63df0d62cbf7b0c3a699e681f9a9921dcb35"
+  integrity sha512-gm5xxvvI48AQhOEf2oS9l+1Jn9VmKr9IWi5717GsKl6VOYCEo8MqrR2Ux6Ulyok3gBoXchAdXShiCmJllGSi2w==
+
 "@emotion/is-prop-valid@^0.7.3":
   version "0.7.3"
   resolved "https://registry.yarnpkg.com/@emotion/is-prop-valid/-/is-prop-valid-0.7.3.tgz#a6bf4fa5387cbba59d44e698a4680f481a8da6cc"
@@ -1203,11 +1208,6 @@ code-point-at@^1.0.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/code-point-at/-/code-point-at-1.1.0.tgz#0d070b4d043a5bea33a2f1a40e2edb3d9a4ccf77"
   integrity sha1-DQcLTQQ6W+ozovGkDi7bPZpMz3c=
-
-codestyle-tslint@1.0.3:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/codestyle-tslint/-/codestyle-tslint-1.0.3.tgz#2d000c9fe4cc097342eb70af53902f03854192e5"
-  integrity sha512-uOz/AOW7Cjz7GYqjVIljcHm6gjYtPNHDjzlgg4S7KxzvxdWOohLVFQ9SmKzov+xqqSld17v7m0lQWgvgFGoE3A==
 
 collection-visit@^1.0.0:
   version "1.0.0"
@@ -6442,10 +6442,10 @@ typedarray@^0.0.6:
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
-typescript@3.2.4:
-  version "3.2.4"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.2.4.tgz#c585cb952912263d915b462726ce244ba510ef3d"
-  integrity sha512-0RNDbSdEokBeEAkgNbxJ+BLwSManFy9TeXz8uW+48j/xhEXv1ePME60olyzw2XzUqUBNAYFeJadIqAgNqIACwg==
+typescript@3.3.1:
+  version "3.3.1"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.3.1.tgz#6de14e1db4b8a006ac535e482c8ba018c55f750b"
+  integrity sha512-cTmIDFW7O0IHbn1DPYjkiebHxwtCMU+eTy30ZtJNBPF9j2O1ITu5XH2YnBeVRKWHqF+3JQwWJv0Q0aUgX8W7IA==
 
 ua-parser-js@^0.7.18:
   version "0.7.19"
