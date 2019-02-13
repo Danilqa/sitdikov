@@ -10,7 +10,9 @@ module.exports = {
         '<rootDir>/src/**/?(*.)(spec).(ts|tsx)'
     ],
     setupFiles: [
-        '<rootDir>/config/jest/setup/console.setup.js'
+        '<rootDir>/config/jest/setup/fetch.setup.js',
+        '<rootDir>/config/jest/setup/console.setup.js',
+        '<rootDir>/config/jest/setup/expect.setup.ts'
     ],
     testURL: 'http://localhost',
     transform: {
