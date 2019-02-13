@@ -48,10 +48,10 @@
     lodash "^4.17.10"
     to-fast-properties "^2.0.0"
 
-"@eigenspace/codestyle@1.1.10":
-  version "1.1.10"
-  resolved "https://registry.yarnpkg.com/@eigenspace/codestyle/-/codestyle-1.1.10.tgz#62656ae81825ddf8c892e378e8abd8f3d260856e"
-  integrity sha512-74QqRDQNQhTkuGiJ+zM4K1SYy+mhUjigXEOVSxQxxEutSZOo9gvqY5jPHxlFl+vCd8whwwvPvJcLwXlHmsMicA==
+"@eigenspace/codestyle@1.1.11":
+  version "1.1.11"
+  resolved "https://registry.yarnpkg.com/@eigenspace/codestyle/-/codestyle-1.1.11.tgz#2a8f21a2d7c28391d6ca08be992514c701095cb5"
+  integrity sha512-TIhroXVj3l1BRragnk0qf/2ZnpLrHWM0Tc/wNsgzUSw4nvUpPKaZJ1TIJhG4v/fQKGU3AMJZN0F27UFyr3DiDA==
 
 "@emotion/is-prop-valid@^0.7.3":
   version "0.7.3"
