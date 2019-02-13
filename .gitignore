@@ -11,6 +11,9 @@
 # testing
 /coverage
 
+# jest diffs
+/src/**/*-diff.png
+
 # production
 /build
 
