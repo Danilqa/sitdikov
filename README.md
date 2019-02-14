@@ -53,7 +53,7 @@ Project should adhere to this structure:
         /environments - sets of constants for different application's environments
                     environment.prod.ts
                     environment.ts
-        index.ts - entry for react applicaiton            
+        index.tsx - entry for react applicaiton            
                      
     package.json - project configuration, contains project information, dependencies and settings
     yarn.log - file fixing specific dependency numbers
