@@ -12,13 +12,9 @@ import { Route, RouteComponentProps, Switch, withRouter } from 'react-router';
 import { Home } from './pages/home/home';
 import { About } from './pages/about/about';
 import { Hero } from './pages/hero/hero';
+import { Routes } from './app.enum';
 
-enum Routes {
-    HOME = '/',
-    ABOUT = '/about'
-}
-
-class AppComponent extends PureComponent<RouteComponentProps> {
+class App extends PureComponent<RouteComponentProps> {
 
     constructor(props: RouteComponentProps) {
         super(props);
@@ -47,9 +43,9 @@ class AppComponent extends PureComponent<RouteComponentProps> {
                 </Navbar>
                 <Container theme={theme}>
                     <Switch>
-                        <Route exact path='/' component={Home}/>
-                        <Route path='/about' component={About}/>
-                        <Route path='/heroes/:id' component={Hero}/>
+                        <Route exact path={Routes.HOME} component={Home}/>
+                        <Route path={Routes.ABOUT} component={About}/>
+                        <Route path={`${Routes.HEROES}/:id`} component={Hero}/>
                     </Switch>
                 </Container>
             </Init>
@@ -61,4 +57,4 @@ class AppComponent extends PureComponent<RouteComponentProps> {
     }
 }
 
-export default withRouter(AppComponent);
+export default withRouter(App);
