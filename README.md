@@ -19,7 +19,10 @@ to DOM-world and is used on top level of application.
 
 # Why do we have that dev dependency?
 
+* `@eigenspace/codestyle` - includes tslint rules, config for typescript.
+* `@eigenspace/jest-screenshot-testing` - ui screenshot testing library.
 * `@types/*` - contains type definitions for specific library.
+* `dts-bundle` - it is used to pack all *.d.ts file into one bundle index.d.ts.
 * `clean-webpack-plugin` - it's used for clean bundle before run building.
 * `html-webpack-plugin` - it generates index.html based on template and includes all required js dependencies 
   with hashed names.
@@ -27,9 +30,13 @@ to DOM-world and is used on top level of application.
 * `jest` - testing framework to write unit specs (including snapshots).
 * `typescript` - is a superset of JavaScript that have static type-checking and ECMAScript features.
 * `ts-jest` - it lets you use Jest to test projects written in TypeScript.
+* `tslint` - it checks TypeScript code for readability, maintainability, and functionality errors.
+* `husky` - used for configure git hooks.
 * `webpack` - it creates app bundle for dev. mode and production. 
 * `webpack-cli` - cli for webpack, provides commands for tasks. 
 * `webpack-dev-server` - provide environment for development, including hot-reloading feature.
+* `lint-staged` - used for configure linters against staged git files.
+* `whatwg-fetch` - this project is a polyfill for `window.fetch`.
 
 # Project structure
 
