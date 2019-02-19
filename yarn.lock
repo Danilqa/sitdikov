@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@arrival/core-ui-kit@0.1.12":
-  version "0.1.12"
-  resolved "https://artifacts.arrival.services:443/@arrival%2fcore-ui-kit/-/core-ui-kit-0.1.12.tgz#d773a296a02d64c7a8ff56bad6c9d5ef0310e91f"
-  integrity sha512-Myi2r+0vQxW82eFJHlm+nKmoiIAWwjQlvDIlRkCJd0rKdkzNd5vs80VEHdJUD+3L5AuKs2fBXPKkSx3Eiiv6WQ==
+"@arrival/core-ui-kit@0.1.15":
+  version "0.1.15"
+  resolved "https://artifacts.arrival.services:443/@arrival%2fcore-ui-kit/-/core-ui-kit-0.1.15.tgz#7ffe4da9511e91a6acfcd434a9ff26c8f4a51999"
+  integrity sha512-eFj8lxWmzPCeo6soHVbgFpoi65Ec/I+UezjlDW/pMACY9L6g95urnwmO8KRo25HjoZDnK7N2av5V4Wxnl2wYbQ==
   dependencies:
     react "16.7.0"
     react-dom "16.7.0"

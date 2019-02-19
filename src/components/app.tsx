@@ -1,12 +1,11 @@
 import * as React from 'react';
 import { PureComponent, ReactNode } from 'react';
 import {
-    Container,
     Init,
     Navbar,
     NavbarItemType,
     NavbarMenu,
-    theme
+    theme, View
 } from '@arrival/core-ui-kit';
 import { Route, RouteComponentProps, Switch, withRouter } from 'react-router';
 import { Home } from './pages/home/home';
@@ -41,13 +40,13 @@ class App extends PureComponent<RouteComponentProps> {
                 <Navbar title='Web App Starter' theme={theme}>
                     <NavbarMenu theme={theme} items={items} onSelectItem={this.onMenuItemSelected}/>
                 </Navbar>
-                <Container theme={theme}>
+                <View hasPadding={true} theme={theme}>
                     <Switch>
                         <Route exact path={Routes.HOME} component={Home}/>
                         <Route path={Routes.ABOUT} component={About}/>
                         <Route path={`${Routes.HEROES}/:id`} component={Hero}/>
                     </Switch>
-                </Container>
+                </View>
             </Init>
         );
     }

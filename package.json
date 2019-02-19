@@ -12,7 +12,7 @@
         "hooks:pre-commit": "yarn test && lint-staged"
     },
     "dependencies": {
-        "@arrival/core-ui-kit": "0.1.12",
+        "@arrival/core-ui-kit": "0.1.15",
         "react": "16.7.0",
         "react-dom": "16.7.0",
         "react-router-dom": "4.3.1",
