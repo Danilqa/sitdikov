@@ -3,6 +3,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CleanWebpackPlugin = require('clean-webpack-plugin');
 
 module.exports = {
+    mode: 'production',
     entry: [
         path.join(__dirname, '../../src/index.tsx')
     ],
@@ -23,7 +24,7 @@ module.exports = {
         path: path.resolve(__dirname, '../../dist')
     },
     plugins: [
-        new CleanWebpackPlugin('dist', { root: path.resolve(__dirname, '../') }),
+        new CleanWebpackPlugin(path.resolve(__dirname, '../dist')),
         new HtmlWebpackPlugin({ template: './public/index.html' })
     ]
 };
