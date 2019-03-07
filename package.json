@@ -9,7 +9,8 @@
         "lint": "tslint 'src/**/*.{ts,tsx}'",
         "test": "jest",
         "test:ci": "jest --ci --coverage",
-        "hooks:pre-commit": "yarn test && lint-staged"
+        "hooks:pre-commit": "yarn test && lint-staged",
+        "script:update-deps": "node node_modules/@eigenspace/helper-scripts/scripts/project/update-deps.js"
     },
     "dependencies": {
         "@arrival/core-ui-kit": "0.1.15",
@@ -19,7 +20,8 @@
         "styled-components": "4.1.3"
     },
     "devDependencies": {
-        "@eigenspace/codestyle": "1.1.11",
+        "@eigenspace/codestyle": "latest",
+        "@eigenspace/helper-scripts": "1.0.44",
         "@eigenspace/jest-screenshot-testing": "0.1.6",
         "@types/jest": "22.2.2",
         "@types/jest-image-snapshot": "2.4.0",
