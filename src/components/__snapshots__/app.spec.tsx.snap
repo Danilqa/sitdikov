@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`App should render about 1`] = `"GO2DbZhXEeknfJ80fEgiuHWYYME="`;
+exports[`App should render about 1`] = `"Zz5GPn/WlXDlrNS+PM7QQkvWDg8="`;
 
-exports[`App should render hero with index 1 1`] = `"Tf20YoTAFFsSNAZv7/rJwmOJMHM="`;
+exports[`App should render hero with index 1 1`] = `"v/P/Q95kYsCQ39/CBVq4Ihy+TBo="`;
 
-exports[`App should render home 1`] = `"xwHWweWZ7ly7G9CnY1XmVP+J58A="`;
+exports[`App should render home 1`] = `"j3Z3dyJc60cyQ9sx9zJaGv7XCsw="`;
