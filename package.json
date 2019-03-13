@@ -6,7 +6,7 @@
     "scripts": {
         "dev": "yarn webpack-dev-server --config=config/webpack/webpack.config.dev.js --progress",
         "build": "yarn webpack --config=config/webpack/webpack.config.prod.js --progress",
-        "lint": "tslint 'src/**/*.{ts,tsx}'",
+        "lint": "tslint --project tsconfig.json",
         "test": "jest",
         "test:ci": "jest --ci --coverage",
         "hooks:pre-commit": "yarn test && lint-staged",
