@@ -3,7 +3,8 @@
 const path = require('path');
 
 // This is a custom Jest transformer turning file imports into filenames.
-// http://facebook.github.io/jest/docs/tutorial-webpack.html
+// It is mock for files that do not matter during spec runs.
+// https://jestjs.io/docs/en/webpack#handling-static-assets
 
 module.exports = {
     process(src, filename) {
