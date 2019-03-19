@@ -10,7 +10,7 @@
         "test": "jest",
         "test:ci": "jest --ci --coverage",
         "hooks:pre-commit": "yarn lint && yarn test",
-        "script:update-deps": "node node_modules/@eigenspace/helper-scripts/scripts/project/update-deps.js"
+        "script:update-deps-remote": "npx -p @eigenspace/helper-scripts update-deps"
     },
     "dependencies": {
         "@arrival/core-ui-kit": "0.1.15",
@@ -21,7 +21,6 @@
     },
     "devDependencies": {
         "@eigenspace/codestyle": "latest",
-        "@eigenspace/helper-scripts": "1.0.44",
         "@eigenspace/jest-screenshot-testing": "0.1.6",
         "@types/jest": "22.2.2",
         "@types/jest-image-snapshot": "2.4.0",

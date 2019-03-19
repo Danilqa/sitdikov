@@ -20,7 +20,6 @@ to DOM-world and is used on top level of application.
 # Why do we have that dev dependency?
 
 * `@eigenspace/codestyle` - includes tslint rules, config for typescript.
-* `@eigenspace/helper-scripts` - includes common scripts for creating our owns and other helpful scripts.
 * `@eigenspace/jest-screenshot-testing` - ui screenshot testing library.
 * `@types/*` - contains type definitions for specific library.
 * `dts-bundle` - it is used to pack all *.d.ts file into one bundle index.d.ts.
