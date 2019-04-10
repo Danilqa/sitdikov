@@ -11,7 +11,7 @@ import { Route, RouteComponentProps, Switch, withRouter } from 'react-router';
 import { Home } from './pages/home/home';
 import { About } from './pages/about/about';
 import { Hero } from './pages/hero/hero';
-import { Routes } from './app.enum';
+import { Route } from './app.enum';
 
 class App extends PureComponent<RouteComponentProps> {
 
@@ -25,13 +25,13 @@ class App extends PureComponent<RouteComponentProps> {
         const items: NavbarItemType[] = [
             {
                 title: 'Home',
-                link: Routes.HOME,
-                defaultSelected: this.props.location.pathname === Routes.HOME
+                link: Route.HOME,
+                isDefaultSelected: this.props.location.pathname === Route.HOME
             },
             {
                 title: 'About',
-                link: Routes.ABOUT,
-                defaultSelected: this.props.location.pathname === Routes.ABOUT
+                link: Route.ABOUT,
+                isDefaultSelected: this.props.location.pathname === Route.ABOUT
             }
         ];
 
@@ -42,9 +42,9 @@ class App extends PureComponent<RouteComponentProps> {
                 </Navbar>
                 <View hasPadding={true} theme={theme}>
                     <Switch>
-                        <Route exact path={Routes.HOME} component={Home}/>
-                        <Route path={Routes.ABOUT} component={About}/>
-                        <Route path={`${Routes.HEROES}/:id`} component={Hero}/>
+                        <Route exact path={Route.HOME} component={Home}/>
+                        <Route path={Route.ABOUT} component={About}/>
+                        <Route path={`${Route.HEROES}/:id`} component={Hero}/>
                     </Switch>
                 </View>
             </Init>

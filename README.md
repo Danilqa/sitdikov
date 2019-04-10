@@ -10,32 +10,37 @@ This is a template project with all required dependencies for creating Arrival a
 3. `yarn install` - install the dependencies.
 4. `yarn dev` - start on the localhost at 3000 port.
 
-# Why do we have that dependency?
+# Why do we have that dependencies?
 
+* `@arrival/core-ui-kit` - arrival ui-component library.
+* `react-router-dom` - DOM bindings for React Router.
 * `react` - provides api for create and control ui-components.  
 * `react-dom` - provides DOM-specific methods to step out from react-world
 to DOM-world and is used on top level of application.
-* `core-ui-kit` - Arrival library of UI-components.
+* `styled-components` - it is way to organize styles as isolated components
+(in particular, elements of main component).
 
-# Why do we have that dev dependency?
+# Why do we have that dev dependencies?
 
 * `@eigenspace/codestyle` - includes tslint rules, config for typescript.
-* `@eigenspace/jest-screenshot-testing` - ui screenshot testing library.
+* `@eigenspace/jest-screenshot-testing` - ui-screenshot testing library.
 * `@types/*` - contains type definitions for specific library.
-* `dts-bundle` - it is used to pack all *.d.ts file into one bundle index.d.ts.
 * `clean-webpack-plugin` - it's used for clean bundle before run building.
 * `html-webpack-plugin` - it generates index.html based on template and includes all required js dependencies 
-  with hashed names.
+with hashed names.
 * `ts-loader` - it's used to load typescript code with webpack. 
 * `jest` - testing framework to write unit specs (including snapshots).
+* `jest-styled-components` - a set of utilities for testing Styled Components with Jest.
+* `jest-image-snapshot` - jest matcher for image comparisons.
 * `typescript` - is a superset of JavaScript that have static type-checking and ECMAScript features.
 * `ts-jest` - it lets you use Jest to test projects written in TypeScript.
-* `tslint` - it checks TypeScript code for readability, maintainability, and functionality errors.
 * `husky` - used for configure git hooks.
+* `react-test-renderer` - render React components to pure JavaScript objects.
+* `tslint` - it checks TypeScript code for readability, maintainability, and functionality errors.
+* `lint-staged` - used for configure linters against staged git files.
 * `webpack` - it creates app bundle for dev. mode and production. 
 * `webpack-cli` - cli for webpack, provides commands for tasks. 
 * `webpack-dev-server` - provide environment for development, including hot-reloading feature.
-* `lint-staged` - used for configure linters against staged git files.
 * `whatwg-fetch` - this project is a polyfill for `window.fetch`.
 
 # Project structure

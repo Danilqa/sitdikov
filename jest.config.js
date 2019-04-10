@@ -7,7 +7,7 @@ module.exports = {
         '.*\\.d\\.ts'
     ],
     testMatch: [
-        '<rootDir>/src/**/?(*.)(spec).(ts|tsx)'
+        '<rootDir>/src/**/*.spec.(ts|tsx)'
     ],
     setupFiles: [
         '<rootDir>/config/jest/setup/fetch.setup.js',
