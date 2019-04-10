@@ -5,13 +5,13 @@ import {
     Navbar,
     NavbarItemType,
     NavbarMenu,
-    theme, View
+    View
 } from '@arrival/core-ui-kit';
 import { Route, RouteComponentProps, Switch, withRouter } from 'react-router';
 import { Home } from './pages/home/home';
 import { About } from './pages/about/about';
 import { Hero } from './pages/hero/hero';
-import { Route } from './app.enum';
+import { RoutePath } from './app.enum';
 
 class App extends PureComponent<RouteComponentProps> {
 
@@ -25,26 +25,26 @@ class App extends PureComponent<RouteComponentProps> {
         const items: NavbarItemType[] = [
             {
                 title: 'Home',
-                link: Route.HOME,
-                isDefaultSelected: this.props.location.pathname === Route.HOME
+                link: RoutePath.HOME,
+                isDefaultSelected: this.props.location.pathname === RoutePath.HOME
             },
             {
                 title: 'About',
-                link: Route.ABOUT,
-                isDefaultSelected: this.props.location.pathname === Route.ABOUT
+                link: RoutePath.ABOUT,
+                isDefaultSelected: this.props.location.pathname === RoutePath.ABOUT
             }
         ];
 
         return (
             <Init>
-                <Navbar title='Web App Starter' theme={theme}>
-                    <NavbarMenu theme={theme} items={items} onSelectItem={this.onMenuItemSelected}/>
+                <Navbar title='Web App Starter'>
+                    <NavbarMenu items={items} onSelectItem={this.onMenuItemSelected}/>
                 </Navbar>
-                <View hasPadding={true} theme={theme}>
+                <View hasPadding={true}>
                     <Switch>
-                        <Route exact path={Route.HOME} component={Home}/>
-                        <Route path={Route.ABOUT} component={About}/>
-                        <Route path={`${Route.HEROES}/:id`} component={Hero}/>
+                        <Route exact path={RoutePath.HOME} component={Home}/>
+                        <Route path={RoutePath.ABOUT} component={About}/>
+                        <Route path={`${RoutePath.HEROES}/:id`} component={Hero}/>
                     </Switch>
                 </View>
             </Init>

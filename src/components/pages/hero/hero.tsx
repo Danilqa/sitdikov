@@ -1,7 +1,7 @@
-import { PureComponent, ReactNode } from 'react';
 import * as React from 'react';
+import { PureComponent, ReactNode } from 'react';
 import { RouteComponentProps } from 'react-router';
-import { Button, ButtonModeType, theme } from '@arrival/core-ui-kit';
+import { Button, ButtonModeType } from '@arrival/core-ui-kit';
 import { Link } from 'react-router-dom';
 
 interface HeroRouteProps {
@@ -15,7 +15,7 @@ export class Hero extends PureComponent<RouteComponentProps<HeroRouteProps>> {
             <div>
                 <h1>Hero {this.props.match.params.id}</h1>
                 <Link to='/'>
-                    <Button mode={ButtonModeType.PRIMARY} theme={theme}>Go back</Button>
+                    <Button mode={ButtonModeType.PRIMARY}>Go back</Button>
                 </Link>
             </div>
         );
