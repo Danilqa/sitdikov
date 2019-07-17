@@ -1,5 +1,5 @@
 export const environment = {
     apiUrls: {
-        screenshoterUrl: 'https://screenshoter.arrival.services/make'
+        screenshoterUrl: 'https://hub.arrival.services/web-screenshoter/make'
     }
 };
