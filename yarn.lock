@@ -178,7 +178,7 @@
     exec-sh "^0.3.2"
     minimist "^1.2.0"
 
-"@eigenspace/codestyle@latest":
+"@eigenspace/codestyle@1.1.60":
   version "1.1.60"
   resolved "https://artifacts.arrival.services:443/@eigenspace%2fcodestyle/-/codestyle-1.1.60.tgz#2362045070a1a1eb5cfb64e08050c0ef3dd3faf7"
   integrity sha512-nc88DlGdKirrBMP8uAQCXX/D9uSNdZ1N7xeVaWv6wYzFpDnxTaWYEqh/RpG46Z198MA8jI5JVgkDWMxkJ6rlHg==
