@@ -22,7 +22,7 @@ to DOM-world and is used on top level of application.
 
 # Why do we have that dev dependencies?
 
-* `@eigenspace/codestyle` - includes tslint rules, config for typescript.
+* `@eigenspace/codestyle` - includes lint rules, config for typescript.
 * `@eigenspace/jest-screenshot-testing` - ui-screenshot testing library.
 * `@types/*` - contains type definitions for specific library.
 * `clean-webpack-plugin` - it's used for clean bundle before run building.
@@ -31,13 +31,13 @@ with hashed names.
 * `ts-loader` - it's used to load typescript code with webpack. 
 * `jest` - testing framework to write unit specs (including snapshots).
 * `jest-styled-components` - a set of utilities for testing Styled Components with Jest.
-* `jest-image-snapshot` - jest matcher for image comparisons.
 * `typescript` - is a superset of JavaScript that have static type-checking and ECMAScript features.
 * `ts-jest` - it lets you use Jest to test projects written in TypeScript.
 * `husky` - used for configure git hooks.
 * `react-test-renderer` - render React components to pure JavaScript objects.
-* `tslint` - it checks TypeScript code for readability, maintainability, and functionality errors.
+* `eslint` - it checks code for readability, maintainability, and functionality errors.
 * `lint-staged` - used for configure linters against staged git files.
+* `prettier` - style components formatter.
 * `webpack` - it creates app bundle for dev. mode and production. 
 * `webpack-cli` - cli for webpack, provides commands for tasks. 
 * `webpack-dev-server` - provide environment for development, including hot-reloading feature.
