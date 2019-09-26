@@ -178,16 +178,22 @@
     exec-sh "^0.3.2"
     minimist "^1.2.0"
 
-"@eigenspace/codestyle@1.1.60":
-  version "1.1.60"
-  resolved "https://artifacts.arrival.services:443/@eigenspace%2fcodestyle/-/codestyle-1.1.60.tgz#2362045070a1a1eb5cfb64e08050c0ef3dd3faf7"
-  integrity sha512-nc88DlGdKirrBMP8uAQCXX/D9uSNdZ1N7xeVaWv6wYzFpDnxTaWYEqh/RpG46Z198MA8jI5JVgkDWMxkJ6rlHg==
+"@eigenspace/codestyle@latest":
+  version "1.1.223"
+  resolved "https://artifacts.arrival.services:443/@eigenspace%2fcodestyle/-/codestyle-1.1.223.tgz#26fdca7ed5193c939a0cbf5e60bfa08b673ff5e0"
+  integrity sha512-DXsG4Q+9Ue3fEd9tuoCfHfS2ddnN+2Qlsy9gR8Fcm3DE+FUqxa9Ugb9pEpaY1TaN2Sl6zM7uwf1xFfaAq6UbVw==
   dependencies:
-    "@typescript-eslint/eslint-plugin" "1.12.0"
-    "@typescript-eslint/parser" "1.12.0"
-    eslint-plugin-prettier "3.1.0"
-    eslint-plugin-react "7.14.2"
+    "@eigenspace/eslint-plugin-script-rules" "0.0.4"
+    "@typescript-eslint/eslint-plugin" "1.13.0"
+    "@typescript-eslint/parser" "1.13.0"
+    eslint-plugin-react "7.14.3"
     eslint-plugin-unicorn "9.1.1"
+    eslint-utils "1.4.2"
+
+"@eigenspace/eslint-plugin-script-rules@0.0.4":
+  version "0.0.4"
+  resolved "https://artifacts.arrival.services:443/@eigenspace%2feslint-plugin-script-rules/-/eslint-plugin-script-rules-0.0.4.tgz#ea3311cdc45e06daee759ffa7b18d0d695809158"
+  integrity sha512-9TDj+aBVE7DvP6tEnDfCfzyJB4EN5uY38VrZAf9+YoEbnxxFxAmuO7Qrqa8CdcrAm8KfdjJO8uXcW3yG8WeiCw==
 
 "@eigenspace/jest-screenshot-testing@0.1.6":
   version "0.1.6"
@@ -423,6 +429,11 @@
   resolved "https://artifacts.arrival.services:443/@types%2fjest/-/jest-22.2.2.tgz#afe5dacbd00d65325f52da0ed3e76e259629ac9d"
   integrity sha512-Dt7aifQmvMPTLVimzvfQ99qUn4zeSDCQarFNV4otfDLYu0RFdSRBnqSLgksoAnsRL88xJ/UBKbd66iP2XIab0w==
 
+"@types/json-schema@^7.0.3":
+  version "7.0.3"
+  resolved "https://artifacts.arrival.services:443/@types%2fjson-schema/-/json-schema-7.0.3.tgz#bdfd69d61e464dcc81b25159c270d75a73c1a636"
+  integrity sha512-Il2DtDVRGDcqjDtE+rF8iqg1CArehSK84HZJCT7AMITlyXRBpuPhqGLDQMowraqqu1coEaimg4ZOqggt6L6L+A==
+
 "@types/node@*":
   version "11.9.3"
   resolved "https://artifacts.arrival.services:443/@types%2fnode/-/node-11.9.3.tgz#14adbb5ab8cd563f549fbae8dbe92e0b7d6e76cc"
@@ -495,39 +506,40 @@
   resolved "https://artifacts.arrival.services:443/@types%2fyargs/-/yargs-12.0.12.tgz#45dd1d0638e8c8f153e87d296907659296873916"
   integrity sha512-SOhuU4wNBxhhTHxYaiG5NY4HBhDIDnJF60GU+2LqHAdKKer86//e4yg69aENCtQ04n0ovz+tq2YPME5t5yp4pw==
 
-"@typescript-eslint/eslint-plugin@1.12.0":
-  version "1.12.0"
-  resolved "https://artifacts.arrival.services:443/@typescript-eslint%2feslint-plugin/-/eslint-plugin-1.12.0.tgz#96b4e08b5f998a198b8414508b1a289f9e8c549a"
-  integrity sha512-J/ZTZF+pLNqjXBGNfq5fahsoJ4vJOkYbitWPavA05IrZ7BXUaf4XWlhUB/ic1lpOGTRpLWF+PLAePjiHp6dz8g==
+"@typescript-eslint/eslint-plugin@1.13.0":
+  version "1.13.0"
+  resolved "https://artifacts.arrival.services:443/@typescript-eslint%2feslint-plugin/-/eslint-plugin-1.13.0.tgz#22fed9b16ddfeb402fd7bcde56307820f6ebc49f"
+  integrity sha512-WQHCozMnuNADiqMtsNzp96FNox5sOVpU8Xt4meaT4em8lOG1SrOv92/mUbEHQVh90sldKSfcOc/I0FOb/14G1g==
   dependencies:
-    "@typescript-eslint/experimental-utils" "1.12.0"
+    "@typescript-eslint/experimental-utils" "1.13.0"
     eslint-utils "^1.3.1"
     functional-red-black-tree "^1.0.1"
     regexpp "^2.0.1"
     tsutils "^3.7.0"
 
-"@typescript-eslint/experimental-utils@1.12.0":
-  version "1.12.0"
-  resolved "https://artifacts.arrival.services:443/@typescript-eslint%2fexperimental-utils/-/experimental-utils-1.12.0.tgz#98417ee2e0c6fe8d1e50d934a6535d9c0f4277b6"
-  integrity sha512-s0soOTMJloytr9GbPteMLNiO2HvJ+qgQkRNplABXiVw6vq7uQRvidkby64Gqt/nA7pys74HksHwRULaB/QRVyw==
+"@typescript-eslint/experimental-utils@1.13.0":
+  version "1.13.0"
+  resolved "https://artifacts.arrival.services:443/@typescript-eslint%2fexperimental-utils/-/experimental-utils-1.13.0.tgz#b08c60d780c0067de2fb44b04b432f540138301e"
+  integrity sha512-zmpS6SyqG4ZF64ffaJ6uah6tWWWgZ8m+c54XXgwFtUv0jNz8aJAVx8chMCvnk7yl6xwn8d+d96+tWp7fXzTuDg==
   dependencies:
-    "@typescript-eslint/typescript-estree" "1.12.0"
+    "@types/json-schema" "^7.0.3"
+    "@typescript-eslint/typescript-estree" "1.13.0"
     eslint-scope "^4.0.0"
 
-"@typescript-eslint/parser@1.12.0":
-  version "1.12.0"
-  resolved "https://artifacts.arrival.services:443/@typescript-eslint%2fparser/-/parser-1.12.0.tgz#9965895ec4745578185965d63f21510f93a3f35a"
-  integrity sha512-0uzbaa9ZLCA5yMWJywnJJ7YVENKGWVUhJDV5UrMoldC5HoI54W5kkdPhTfmtFKpPFp93MIwmJj0/61ztvmz5Dw==
+"@typescript-eslint/parser@1.13.0":
+  version "1.13.0"
+  resolved "https://artifacts.arrival.services:443/@typescript-eslint%2fparser/-/parser-1.13.0.tgz#61ac7811ea52791c47dc9fd4dd4a184fae9ac355"
+  integrity sha512-ITMBs52PCPgLb2nGPoeT4iU3HdQZHcPaZVw+7CsFagRJHUhyeTgorEwHXhFf3e7Evzi8oujKNpHc8TONth8AdQ==
   dependencies:
     "@types/eslint-visitor-keys" "^1.0.0"
-    "@typescript-eslint/experimental-utils" "1.12.0"
-    "@typescript-eslint/typescript-estree" "1.12.0"
+    "@typescript-eslint/experimental-utils" "1.13.0"
+    "@typescript-eslint/typescript-estree" "1.13.0"
     eslint-visitor-keys "^1.0.0"
 
-"@typescript-eslint/typescript-estree@1.12.0":
-  version "1.12.0"
-  resolved "https://artifacts.arrival.services:443/@typescript-eslint%2ftypescript-estree/-/typescript-estree-1.12.0.tgz#d8dd0a7cffb5e3c0c3e98714042d83e316dfc9a9"
-  integrity sha512-nwN6yy//XcVhFs0ZyU+teJHB8tbCm7AIA8mu6E2r5hu6MajwYBY3Uwop7+rPZWUN/IUOHpL8C+iUPMDVYUU3og==
+"@typescript-eslint/typescript-estree@1.13.0":
+  version "1.13.0"
+  resolved "https://artifacts.arrival.services:443/@typescript-eslint%2ftypescript-estree/-/typescript-estree-1.13.0.tgz#8140f17d0f60c03619798f1d628b8434913dc32e"
+  integrity sha512-b5rCmd2e6DCC6tCTN9GSUAuxdYwCM/k/2wdjHGrIRGPSJotWMCe/dGpi66u42bhuh8q3QBzqM4TMA1GUUCJvdw==
   dependencies:
     lodash.unescape "4.0.1"
     semver "5.5.0"
@@ -2573,17 +2585,17 @@ eslint-ast-utils@^1.0.0:
     lodash.get "^4.4.2"
     lodash.zip "^4.2.0"
 
-eslint-plugin-prettier@3.1.0:
-  version "3.1.0"
-  resolved "https://artifacts.arrival.services:443/eslint-plugin-prettier/-/eslint-plugin-prettier-3.1.0.tgz#8695188f95daa93b0dc54b249347ca3b79c4686d"
-  integrity sha512-XWX2yVuwVNLOUhQijAkXz+rMPPoCr7WFiAl8ig6I7Xn+pPVhDhzg4DxHpmbeb0iqjO9UronEA3Tb09ChnFVHHA==
+eslint-plugin-eigenspace-script@latest:
+  version "0.0.15"
+  resolved "https://artifacts.arrival.services:443/eslint-plugin-eigenspace-script/-/eslint-plugin-eigenspace-script-0.0.15.tgz#4c5cc524929e35a677c34bf5d9e76904439d46ac"
+  integrity sha512-gu6W8PAF89Y4x4TOFoRv7NaXVsL1+wGj6ZtxhexM5fu2K9sypV0aJwkq1qiWL73q2XWM7N/tyskO4WZ9ZvtpyA==
   dependencies:
-    prettier-linter-helpers "^1.0.0"
+    eslint-plugin-unicorn "9.1.1"
 
-eslint-plugin-react@7.14.2:
-  version "7.14.2"
-  resolved "https://artifacts.arrival.services:443/eslint-plugin-react/-/eslint-plugin-react-7.14.2.tgz#94c193cc77a899ac0ecbb2766fbef88685b7ecc1"
-  integrity sha512-jZdnKe3ip7FQOdjxks9XPN0pjUKZYq48OggNMd16Sk+8VXx6JOvXmlElxROCgp7tiUsTsze3jd78s/9AFJP2mA==
+eslint-plugin-react@7.14.3:
+  version "7.14.3"
+  resolved "https://artifacts.arrival.services:443/eslint-plugin-react/-/eslint-plugin-react-7.14.3.tgz#911030dd7e98ba49e1b2208599571846a66bdf13"
+  integrity sha512-EzdyyBWC4Uz2hPYBiEJrKCUi2Fn+BJ9B/pJQcjw5X+x/H2Nm59S4MJIvL4O5NEE0+WbnQwEBxWY03oUk+Bc3FA==
   dependencies:
     array-includes "^3.0.3"
     doctrine "^2.1.0"
@@ -2628,6 +2640,13 @@ eslint-scope@^4.0.3:
   dependencies:
     esrecurse "^4.1.0"
     estraverse "^4.1.1"
+
+eslint-utils@1.4.2:
+  version "1.4.2"
+  resolved "https://artifacts.arrival.services:443/eslint-utils/-/eslint-utils-1.4.2.tgz#166a5180ef6ab7eb462f162fd0e6f2463d7309ab"
+  integrity sha512-eAZS2sEUMlIeCjBeubdj45dmBHQwPHWyBcT1VSYB7o9x9WRRqKxyUoiXlRjyAwzN7YEzHJlYg0NmzDRWx6GP4Q==
+  dependencies:
+    eslint-visitor-keys "^1.0.0"
 
 eslint-utils@^1.3.1:
   version "1.4.0"
@@ -2970,11 +2989,6 @@ fast-deep-equal@^2.0.1:
   version "2.0.1"
   resolved "https://artifacts.arrival.services:443/fast-deep-equal/-/fast-deep-equal-2.0.1.tgz#7b05218ddf9667bf7f370bf7fdb2cb15fdd0aa49"
   integrity sha1-ewUhjd+WZ79/Nwv3/bLLFf3Qqkk=
-
-fast-diff@^1.1.2:
-  version "1.2.0"
-  resolved "https://artifacts.arrival.services:443/fast-diff/-/fast-diff-1.2.0.tgz#73ee11982d86caaf7959828d519cfe927fac5f03"
-  integrity sha512-xJuoT5+L99XlZ8twedaRf6Ax2TgQVxvgZOYoPKqZufmJib0tL2tegPBOZb1pVNgIhlqDlA0eO0c3wBvQcmzx4w==
 
 fast-json-stable-stringify@2.x, fast-json-stable-stringify@^2.0.0:
   version "2.0.0"
@@ -6677,13 +6691,6 @@ preserve@^0.2.0:
   version "0.2.0"
   resolved "https://artifacts.arrival.services:443/preserve/-/preserve-0.2.0.tgz#815ed1f6ebc65926f865b310c0713bcb3315ce4b"
   integrity sha1-gV7R9uvGWSb4ZbMQwHE7yzMVzks=
-
-prettier-linter-helpers@^1.0.0:
-  version "1.0.0"
-  resolved "https://artifacts.arrival.services:443/prettier-linter-helpers/-/prettier-linter-helpers-1.0.0.tgz#d23d41fe1375646de2d0104d3454a3008802cf7b"
-  integrity sha512-GbK2cP9nraSSUF9N2XwUwqfzlAFlMNYYl+ShE/V+H8a9uNl/oUqB1w2EL54Jh0OlyRSd8RfWYJ3coVS4TROP2w==
-  dependencies:
-    fast-diff "^1.1.2"
 
 prettier@1.18.2:
   version "1.18.2"

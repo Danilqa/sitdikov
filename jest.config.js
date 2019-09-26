@@ -29,9 +29,7 @@ module.exports = {
         'node'
     ],
     globals: {
-        'ts-jest': {
-            tsConfig: 'src/tsconfig.spec.json'
-        }
+        'ts-jest': { tsConfig: 'src/tsconfig.spec.json' }
     },
     coverageThreshold: {
         global: {

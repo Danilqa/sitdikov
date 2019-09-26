@@ -36,6 +36,7 @@ with hashed names.
 * `husky` - used for configure git hooks.
 * `react-test-renderer` - render React components to pure JavaScript objects.
 * `eslint` - it checks code for readability, maintainability, and functionality errors.
+* `eslint-plugin-eigenspace-script` - Includes set of script linting rules and configuration for them.
 * `lint-staged` - used for configure linters against staged git files.
 * `prettier` - style components formatter.
 * `webpack` - it creates app bundle for dev. mode and production. 
