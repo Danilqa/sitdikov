@@ -7,7 +7,7 @@ import {
     NavbarMenu,
     View
 } from '@arrival/core-ui-kit';
-import { Route, RouteComponentProps, Switch, withRouter } from 'react-router';
+import { Route, RouteComponentProps, Switch, withRouter } from 'react-router-dom';
 import { Home } from './pages/home/home';
 import { About } from './pages/about/about';
 import { Hero } from './pages/hero/hero';

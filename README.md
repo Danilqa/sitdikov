@@ -24,6 +24,7 @@ to DOM-world and is used on top level of application.
 
 * `@eigenspace/codestyle` - includes lint rules, config for typescript.
 * `@eigenspace/jest-screenshot-testing` - ui-screenshot testing library.
+* `@eigenspace/commit-linter` - linter for commit messages.
 * `@types/*` - contains type definitions for specific library.
 * `clean-webpack-plugin` - it's used for clean bundle before run building.
 * `html-webpack-plugin` - it generates index.html based on template and includes all required js dependencies 
@@ -36,6 +37,7 @@ with hashed names.
 * `husky` - used for configure git hooks.
 * `react-test-renderer` - render React components to pure JavaScript objects.
 * `eslint` - it checks code for readability, maintainability, and functionality errors.
+* `eslint-plugin-eigenspace-script` - Includes set of script linting rules and configuration for them.
 * `lint-staged` - used for configure linters against staged git files.
 * `prettier` - style components formatter.
 * `webpack` - it creates app bundle for dev. mode and production. 
@@ -113,4 +115,3 @@ Structure example:
     yarn.lock
     README.md
 ```
-                
