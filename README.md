@@ -24,6 +24,7 @@ to DOM-world and is used on top level of application.
 
 * `@eigenspace/codestyle` - includes lint rules, config for typescript.
 * `@eigenspace/jest-screenshot-testing` - ui-screenshot testing library.
+* `@eigenspace/commit-linter` - linter for commit messages.
 * `@types/*` - contains type definitions for specific library.
 * `clean-webpack-plugin` - it's used for clean bundle before run building.
 * `html-webpack-plugin` - it generates index.html based on template and includes all required js dependencies 
@@ -114,4 +115,3 @@ Structure example:
     yarn.lock
     README.md
 ```
-                
