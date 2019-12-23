@@ -178,6 +178,11 @@
     exec-sh "^0.3.2"
     minimist "^1.2.0"
 
+"@eigenspace/argument-parser@1.0.4":
+  version "1.0.4"
+  resolved "https://artifacts.arrival.services:443/@eigenspace%2fargument-parser/-/argument-parser-1.0.4.tgz#9c51fc5bfca474c98841942ed8440864cd455323"
+  integrity sha512-uqlYKbicmfu2B8yB+MC8b7OdhGBQYSaDy6hmfRKWZ6uFOy4dD+ysvOzgrNeFgR1BPNitLhBcsTrekyQuYx07Aw==
+
 "@eigenspace/codestyle@latest":
   version "1.1.223"
   resolved "https://artifacts.arrival.services:443/@eigenspace%2fcodestyle/-/codestyle-1.1.223.tgz#26fdca7ed5193c939a0cbf5e60bfa08b673ff5e0"
@@ -189,6 +194,13 @@
     eslint-plugin-react "7.14.3"
     eslint-plugin-unicorn "9.1.1"
     eslint-utils "1.4.2"
+
+"@eigenspace/commit-linter@0.0.21":
+  version "0.0.21"
+  resolved "https://artifacts.arrival.services:443/@eigenspace%2fcommit-linter/-/commit-linter-0.0.21.tgz#4613e57d37021cc86ba4c1029662b35d943902d1"
+  integrity sha512-QhGDXqnyxAiljqFU3Xhwix63jXySVgis8D7YRHn7zi/tErPD1NPZwHqpVHs2J6fS9CFAJHAVcM9yqk3CN3/GxQ==
+  dependencies:
+    "@eigenspace/argument-parser" "1.0.4"
 
 "@eigenspace/eslint-plugin-script-rules@0.0.4":
   version "0.0.4"
@@ -5086,14 +5098,6 @@ jest-worker@^24.6.0:
     merge-stream "^1.0.1"
     supports-color "^6.1.0"
 
-"jest@ 24.7.1":
-  version "24.7.1"
-  resolved "https://artifacts.arrival.services:443/jest/-/jest-24.7.1.tgz#0d94331cf510c75893ee32f87d7321d5bf8f2501"
-  integrity sha512-AbvRar5r++izmqo5gdbAjTeA6uNRGoNRuj5vHB0OnDXo2DXWZJVuaObiGgtlvhKb+cWy2oYbQSfxv7Q7GjnAtA==
-  dependencies:
-    import-local "^2.0.0"
-    jest-cli "^24.7.1"
-
 jest@23.6.0:
   version "23.6.0"
   resolved "https://artifacts.arrival.services:443/jest/-/jest-23.6.0.tgz#ad5835e923ebf6e19e7a1d7529a432edfee7813d"
@@ -5101,6 +5105,14 @@ jest@23.6.0:
   dependencies:
     import-local "^1.0.0"
     jest-cli "^23.6.0"
+
+jest@24.7.1:
+  version "24.7.1"
+  resolved "https://artifacts.arrival.services:443/jest/-/jest-24.7.1.tgz#0d94331cf510c75893ee32f87d7321d5bf8f2501"
+  integrity sha512-AbvRar5r++izmqo5gdbAjTeA6uNRGoNRuj5vHB0OnDXo2DXWZJVuaObiGgtlvhKb+cWy2oYbQSfxv7Q7GjnAtA==
+  dependencies:
+    import-local "^2.0.0"
+    jest-cli "^24.7.1"
 
 "js-tokens@^3.0.0 || ^4.0.0", js-tokens@^4.0.0:
   version "4.0.0"
@@ -8381,10 +8393,10 @@ typedarray@^0.0.6:
   resolved "https://artifacts.arrival.services:443/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
-typescript@3.3.1:
-  version "3.3.1"
-  resolved "https://artifacts.arrival.services:443/typescript/-/typescript-3.3.1.tgz#6de14e1db4b8a006ac535e482c8ba018c55f750b"
-  integrity sha512-cTmIDFW7O0IHbn1DPYjkiebHxwtCMU+eTy30ZtJNBPF9j2O1ITu5XH2YnBeVRKWHqF+3JQwWJv0Q0aUgX8W7IA==
+typescript@3.7.4:
+  version "3.7.4"
+  resolved "https://artifacts.arrival.services:443/typescript/-/typescript-3.7.4.tgz#1743a5ec5fef6a1fa9f3e4708e33c81c73876c19"
+  integrity sha512-A25xv5XCtarLwXpcDNZzCGvW2D1S3/bACratYBx2sax8PefsFhlYmkQicKHvpYflFS8if4zne5zT5kpJ7pzuvw==
 
 uglify-js@3.4.x, uglify-js@^3.1.4:
   version "3.4.9"

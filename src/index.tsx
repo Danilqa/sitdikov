@@ -9,5 +9,5 @@ ReactDOM.render(
     <BrowserRouter>
         <App/>
     </BrowserRouter>
-    , document.querySelector('body')
+    , document.getElementById('app')
 );
