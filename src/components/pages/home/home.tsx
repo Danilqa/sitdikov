@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { PureComponent, ReactNode } from 'react';
-import { Button, ButtonModeType } from '@arrival/core-ui-kit';
+import { Button, ButtonModeType } from '@cybernated/core-ui-kit';
 import { Link } from 'react-router-dom';
 
 export class Home extends PureComponent {
