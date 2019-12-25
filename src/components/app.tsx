@@ -6,7 +6,7 @@ import {
     NavbarItemType,
     NavbarMenu,
     View
-} from '@arrival/core-ui-kit';
+} from '@cybernated/core-ui-kit';
 import { Route, RouteComponentProps, Switch, withRouter } from 'react-router-dom';
 import { Home } from './pages/home/home';
 import { About } from './pages/about/about';

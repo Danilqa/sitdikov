@@ -12,7 +12,7 @@ This is a template project with all required dependencies for creating Arrival a
 
 # Why do we have that dependencies?
 
-* `@arrival/core-ui-kit` - arrival ui-component library.
+* `@cybernated/core-ui-kit` - arrival ui-component library.
 * `react-router-dom` - DOM bindings for React Router.
 * `react` - provides api for create and control ui-components.  
 * `react-dom` - provides DOM-specific methods to step out from react-world
