@@ -1,13 +1,10 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
-import App from './components/app';
-import { BrowserRouter } from 'react-router-dom';
+import { App } from './components/app';
 
 // Browser router inject required attributes.
 // noinspection RequiredAttributes
 ReactDOM.render(
-    <BrowserRouter>
-        <App/>
-    </BrowserRouter>
+    <App/>
     , document.getElementById('app')
 );
