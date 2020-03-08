@@ -2,6 +2,7 @@
     "extends": "@eigenspace/codestyle/configs/typescript/base.tsconfig.json",
     "compilerOptions": {
         "moduleResolution": "node",
+        "declaration": false,
         "outDir": "dist/types",
         "typeRoots": [
             "node_modules/@types"

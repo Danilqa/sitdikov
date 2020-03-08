@@ -5,15 +5,16 @@ import { CaseContainer, SubTitle, Title } from './case.styles';
 interface Props {
     title: string;
     subtitle: string;
+    isLast?: boolean;
 }
 
 export class Case extends PureComponent<Props> {
 
     render(): ReactNode {
-        const { title, subtitle, children } = this.props;
+        const { title, subtitle, children, isLast } = this.props;
 
         return (
-            <CaseContainer>
+            <CaseContainer isLast={isLast}>
                 <Title>{title}</Title>
                 <SubTitle>{subtitle}</SubTitle>
                 {children}

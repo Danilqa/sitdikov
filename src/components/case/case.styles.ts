@@ -1,21 +1,26 @@
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 import { size } from '../../styles/mixins';
 import { Theme } from '../app.theme';
 
-export const CaseContainer = styled.div`
+interface CaseContainerProps {
+    isLast?: boolean;
+}
+
+export const CaseContainer = styled.div<CaseContainerProps>`
     position: relative;
-    
-    &:not(:last-of-type) {
-        margin-bottom: ${size(Theme.sizeRatio * 10)};
+    ${props => !props.isLast && sectionDivider}
+`;
+
+const sectionDivider = css`
+    margin-bottom: ${size(Theme.sizeRatio * 10)};
         
-        &:before {
-            content: ' ';
-            position: absolute;
-            width: ${size(50)};
-            height: ${size(2)};
-            bottom: ${size(-25)};
-            background-color: ${Theme.color.primary};
-        }
+    &:before {
+        content: ' ';
+        position: absolute;
+        width: ${size(50)};
+        height: ${size(2)};
+        bottom: ${size(-25)};
+        background-color: ${Theme.color.primary};
     }
 `;
 
