@@ -26,7 +26,7 @@ module.exports = {
         port: 3000
     },
     plugins: [
-        new HtmlWebpackPlugin({ template: './res/index.html' }),
+        new HtmlWebpackPlugin({ template: './public/index.html' }),
         new CopyWebpackPlugin([
             { from: 'src/assets', to: 'assets' }
         ])

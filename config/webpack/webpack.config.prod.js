@@ -22,7 +22,7 @@ module.exports = {
     },
     plugins: [
         new CleanWebpackPlugin(path.resolve(__dirname, '../dist')),
-        new HtmlWebpackPlugin({ template: './res/index.html' }),
+        new HtmlWebpackPlugin({ template: './public/index.html' }),
         new CopyWebpackPlugin([
             { from: 'src/assets', to: 'assets' }
         ])
