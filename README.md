@@ -1,7 +1,6 @@
 # About
 
-This is a template project with all required dependencies for creating Arrival application:
-* [core-ui-kit](https://github.com/cybernated/core-ui-kit) - a library of all UI components.
+Just a personal page.
 
 # Getting started
 
@@ -12,8 +11,6 @@ This is a template project with all required dependencies for creating Arrival a
 
 # Why do we have that dependencies?
 
-* `@cybernated/core-ui-kit` - arrival ui-component library.
-* `react-router-dom` - DOM bindings for React Router.
 * `react` - provides api for create and control ui-components.  
 * `react-dom` - provides DOM-specific methods to step out from react-world
 to DOM-world and is used on top level of application.
@@ -23,23 +20,21 @@ to DOM-world and is used on top level of application.
 # Why do we have that dev dependencies?
 
 * `@eigenspace/codestyle` - includes lint rules, config for typescript.
-* `@eigenspace/jest-screenshot-testing` - ui-screenshot testing library.
 * `@eigenspace/commit-linter` - linter for commit messages.
 * `@types/*` - contains type definitions for specific library.
 * `clean-webpack-plugin` - it's used for clean bundle before run building.
 * `html-webpack-plugin` - it generates index.html based on template and includes all required js dependencies 
 with hashed names.
 * `ts-loader` - it's used to load typescript code with webpack. 
-* `jest` - testing framework to write unit specs (including snapshots).
-* `jest-styled-components` - a set of utilities for testing Styled Components with Jest.
 * `typescript` - is a superset of JavaScript that have static type-checking and ECMAScript features.
 * `ts-jest` - it lets you use Jest to test projects written in TypeScript.
 * `husky` - used for configure git hooks.
-* `react-test-renderer` - render React components to pure JavaScript objects.
 * `eslint` - it checks code for readability, maintainability, and functionality errors.
+* `eslint-plugin-prettier` - used for auto-formatting styles.
 * `eslint-plugin-eigenspace-script` - Includes set of script linting rules and configuration for them.
 * `lint-staged` - used for configure linters against staged git files.
 * `prettier` - style components formatter.
+* `copy-webpack-plugin` - used for copying mocks to dev server.
 * `webpack` - it creates app bundle for dev. mode and production. 
 * `webpack-cli` - cli for webpack, provides commands for tasks. 
 * `webpack-dev-server` - provide environment for development, including hot-reloading feature.
