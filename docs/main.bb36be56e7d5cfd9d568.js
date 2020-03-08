@@ -161,7 +161,7 @@ Object.defineProperty(t,"__esModule",{value:!0});var n=null,r=!1,a=3,o=-1,i=-1,l
     margin: 0 auto;
     padding: ${i(s.wrapper.padding)} ${i(s.wrapper.padding)} 0 ${i(s.wrapper.padding)};
     opacity: 0;
-    transition: all 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
     ${e=>e.isContentShown&&"opacity: 1"};
 
     @media screen and (max-width: ${i(s.breakpoints.mobile)}) {

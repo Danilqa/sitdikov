@@ -16,7 +16,7 @@ export const WrapperContainer = React.memo(styled.div<Props>`
     margin: 0 auto;
     padding: ${size(Theme.wrapper.padding)} ${size(Theme.wrapper.padding)} 0 ${size(Theme.wrapper.padding)};
     opacity: 0;
-    transition: all 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
     ${props => props.isContentShown && 'opacity: 1'};
 
     @media screen and (max-width: ${size(Theme.breakpoints.mobile)}) {
