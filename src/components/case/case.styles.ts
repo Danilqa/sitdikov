@@ -13,7 +13,7 @@ export const CaseContainer = styled.div<CaseContainerProps>`
 
 const sectionDivider = css`
     margin-bottom: ${size(Theme.sizeRatio * 10)};
-        
+
     &:before {
         content: ' ';
         position: absolute;

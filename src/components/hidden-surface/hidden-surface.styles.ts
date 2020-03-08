@@ -5,6 +5,6 @@ interface Props {
 }
 
 export const HiddenSurfaceContainer = styled.div<Props>`
-    transition: .3s linear opacity;
-    opacity: ${props => props.shown ? 1 : .07};
+    transition: 0.3s linear opacity;
+    opacity: ${props => (props.shown ? 1 : 0.07)};
 `;
