@@ -1,13 +1,13 @@
 import * as React from 'react';
 import { PureComponent, ReactNode } from 'react';
 import { GlobalStyles } from '../styles/global.styles';
-import { Wrapper } from './app.styles';
 import { Column } from './column/column';
 import { Header } from './header/header';
 import { Paragraph } from './paragraph/paragraph';
 import { Case } from './case/case';
 import { HiddenSurface } from './hidden-surface/hidden-surface';
 import { Avatar } from './avatar/avatar';
+import { Wrapper } from './wrapper/wrapper';
 
 export class App extends PureComponent {
 

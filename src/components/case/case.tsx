@@ -16,7 +16,12 @@ export class Case extends PureComponent<Props> {
 
         const isLink = Boolean(url);
         return (
-            <CaseContainer isLast={isLast} isLink={isLink} href={url} target='_blank'>
+            <CaseContainer
+                isLast={isLast}
+                isLink={isLink}
+                href={url}
+                target='_blank'
+            >
                 <Title>{title}</Title>
                 <SubTitle>{subtitle}</SubTitle>
                 {children}
