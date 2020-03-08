@@ -1,4 +1,4 @@
 out-tsc/**/*
 dist/**/*
 coverage/**/*
-docs/***/
+docs/**/*
