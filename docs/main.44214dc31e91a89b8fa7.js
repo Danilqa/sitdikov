@@ -85,13 +85,17 @@ Object.defineProperty(t,"__esModule",{value:!0});var n=null,r=!1,a=3,o=-1,i=-1,l
         color: ${s.color.primary};
         text-decoration: underline;
     }
-`,d=o.a`${l}${f}`,p=o.c.div`
+`,d=o.a`${l}${f}`,p=i(s.wrapper.padding/2),h=o.c.div`
     display: flex;
     flex-wrap: wrap;
     max-width: ${i(s.wrapper.width)};
     margin: 0 auto;
     padding: ${i(s.wrapper.padding)} ${i(s.wrapper.padding)} 0 ${i(s.wrapper.padding)};
-`,h=o.c.div`
+
+    @media screen and (max-width: ${i(s.breakpoints.mobile)}) {
+        padding: ${p} ${p} 0 ${p};
+    }
+`,m=o.c.div`
     width: ${i(s.column.width)};
     height: 100%;
     flex-grow: 1;
@@ -108,7 +112,7 @@ Object.defineProperty(t,"__esModule",{value:!0});var n=null,r=!1,a=3,o=-1,i=-1,l
             margin-bottom: ${i(40)};
         }
     }
-`,m=o.c.h1`
+`,y=o.c.h1`
     font-size: ${i(20)};
     margin-bottom: ${i(8*s.sizeRatio)};
     font-weight: bold;
@@ -117,19 +121,19 @@ Object.defineProperty(t,"__esModule",{value:!0});var n=null,r=!1,a=3,o=-1,i=-1,l
         margin-bottom: ${i(4*s.sizeRatio)};
     }
     
-    ${e=>e.isNotFirst&&y}
-`,y=o.b`
+    ${e=>e.isNotFirst&&g}
+`,g=o.b`
     margin-top: ${i(12*s.sizeRatio)};
-`,g=o.c.p`
+`,v=o.c.p`
     margin-bottom: ${i(4*s.sizeRatio)};
     
     &:not(:last-of-type) {
         margin-bottom: 0;
     }
-`,v=o.c.div`
+`,b=o.c.div`
     position: relative;
-    ${e=>!e.isLast&&b}
-`,b=o.b`
+    ${e=>!e.isLast&&w}
+`,w=o.b`
     margin-bottom: ${i(10*s.sizeRatio)};
 
     &:before {
@@ -140,13 +144,13 @@ Object.defineProperty(t,"__esModule",{value:!0});var n=null,r=!1,a=3,o=-1,i=-1,l
         bottom: ${i(-25)};
         background-color: ${s.color.primary};
     }
-`,w=o.c.div`
+`,k=o.c.div`
     font-weight: bold;
     font-size: ${i(36)};
-`,k=o.c.div`
+`,x=o.c.div`
     font-weight: lighter;
     font-size: ${i(14)};
-`;class x extends r.PureComponent{render(){const{title:e,subtitle:t,children:n,isLast:a}=this.props;return r.createElement(v,{isLast:a},r.createElement(w,null,e),r.createElement(k,null,t),n)}}const C=o.c.div`
+`;class C extends r.PureComponent{render(){const{title:e,subtitle:t,children:n,isLast:a}=this.props;return r.createElement(b,{isLast:a},r.createElement(k,null,e),r.createElement(x,null,t),n)}}const T=o.c.div`
     transition: 0.3s linear opacity;
     opacity: ${e=>e.shown?1:.07};
-`;class T{static subscribe(e){T.subscriptions.push(e)}static showAll(){T.subscriptions.forEach(e=>e.show())}static hideAll({except:e}){T.subscriptions.forEach(t=>{e!==t&&t.hide()})}}T.subscriptions=[];class S extends r.PureComponent{constructor(e){super(e),this.state={shown:!0},this.onMouseEntered=this.onMouseEntered.bind(this),this.onMouseLeaved=this.onMouseLeaved.bind(this)}componentDidMount(){T.subscribe(this)}render(){return r.createElement(C,{shown:this.state.shown,onMouseEnter:this.onMouseEntered,onMouseLeave:this.onMouseLeaved},this.props.children)}show(){this.setState({shown:!0})}hide(){this.setState({shown:!1})}onMouseEntered(){this.props.isNotHoverable||T.hideAll({except:this})}onMouseLeaved(){T.showAll()}}a.render(r.createElement(class extends r.PureComponent{render(){return r.createElement(r.Fragment,null,r.createElement(d,null),r.createElement(p,null,r.createElement(h,null,r.createElement(S,null,r.createElement(m,null,"Daniil Sitdikov"),r.createElement(g,null,"Product software engineer. Mostly experienced in front-end. I like a good development culture, clear abstractions and invent something awesome for products."))),r.createElement(h,null,r.createElement(S,{isNotHoverable:!0},r.createElement(m,null,"Briefly about work")),r.createElement(S,null,r.createElement(x,{title:"Arrival",subtitle:"Electrical vehicles. London"},r.createElement(g,null,"Interacted with stakeholders, worked on MVP — Data Studio project. It’s about storing all business data in one place, updating and showing relations between them in the graph and in the table."),r.createElement(g,null,"Created UI components library with 100% test code coverage with user documentation."))),r.createElement(S,null,r.createElement(x,{title:"Experiment X",subtitle:"Rapid assay reader. London, project work"},r.createElement(g,null,"Implemented not-recognized text hightlighting feature on photos for mobile application based on React Native."))),r.createElement(S,null,r.createElement(x,{title:"VeeRoute",subtitle:"Fleet management, sheduling and routing. Saint-Petersburg"},r.createElement(g,null,"Created panel for logistician’s of Kazakhstan’s mail and UI components for it. Participated in migrating main project from AngularJS to Angular 6."))),r.createElement(S,null,r.createElement(x,{title:"Yota",subtitle:"Cell phone provider. Saint-Petersburg, summer internship",isLast:!0},r.createElement(g,null,"Created interactive reports with gallery and diffs comparison for screenshoot testing utility.")))),r.createElement(h,null,r.createElement(S,null,r.createElement(m,null,"More"),r.createElement(g,null,"I like frivolous storytelling on Instagram, discover new places and people. Sometimes I even think that I am a creative designer and writer (but actually I am not)."),r.createElement(g,null,"I grew up in Novouralsk, harsh Russia. Graduated as software engineer from Saint Petersburg Aerospace Instrumentation University."),r.createElement(g,null,"During school years bought my first iPad with money earned from creation e-commerce web-sites."),r.createElement(g,null,"Take a peek at my ",r.createElement("a",{href:"/assets/resume-2020.pdf",target:"_blank"},"resume"),". Say hey over ",r.createElement("a",{href:"mailto:hello.boriskas@gmail.com"},"mail")," or ",r.createElement("a",{href:"https://www.linkedin.com/in/dsitdikov/",target:"_blank"},"LinkedIn"),".")),r.createElement(S,{isNotHoverable:!0},r.createElement(m,{isNotFirst:!0},"Side projects")),r.createElement(S,null,r.createElement(x,{title:"Standards",subtitle:"standards.eigenspace.team"},r.createElement(g,null,"Implemented rules for code linter, contributed to team rules in project, created a commit linter utility."))))))}},null),document.getElementById("app"))}]);
+`;class S{static subscribe(e){S.subscriptions.push(e)}static showAll(){S.subscriptions.forEach(e=>e.show())}static hideAll({except:e}){S.subscriptions.forEach(t=>{e!==t&&t.hide()})}}S.subscriptions=[];class E extends r.PureComponent{constructor(e){super(e),this.state={shown:!0},this.onMouseEntered=this.onMouseEntered.bind(this),this.onMouseLeaved=this.onMouseLeaved.bind(this)}componentDidMount(){S.subscribe(this)}render(){return r.createElement(T,{shown:this.state.shown,onMouseEnter:this.onMouseEntered,onMouseLeave:this.onMouseLeaved},this.props.children)}show(){this.setState({shown:!0})}hide(){this.setState({shown:!1})}onMouseEntered(){this.props.isNotHoverable||S.hideAll({except:this})}onMouseLeaved(){S.showAll()}}a.render(r.createElement(class extends r.PureComponent{render(){return r.createElement(r.Fragment,null,r.createElement(d,null),r.createElement(h,null,r.createElement(m,null,r.createElement(E,null,r.createElement(y,null,"Daniil Sitdikov"),r.createElement(v,null,"Product software engineer. Mostly experienced in front-end. I like a good development culture, clear abstractions and invent something awesome for products."))),r.createElement(m,null,r.createElement(E,{isNotHoverable:!0},r.createElement(y,null,"Briefly about work")),r.createElement(E,null,r.createElement(C,{title:"Arrival",subtitle:"Electrical vehicles. London"},r.createElement(v,null,"Interacted with stakeholders, worked on MVP — Data Studio project. It’s about storing all business data in one place, updating and showing relations between them in the graph and in the table."),r.createElement(v,null,"Created UI components library with 100% test code coverage with user documentation."))),r.createElement(E,null,r.createElement(C,{title:"Experiment X",subtitle:"Rapid assay reader. London, project work"},r.createElement(v,null,"Implemented not-recognized text hightlighting feature on photos for mobile application based on React Native."))),r.createElement(E,null,r.createElement(C,{title:"VeeRoute",subtitle:"Fleet management, sheduling and routing. Saint-Petersburg"},r.createElement(v,null,"Created panel for logistician’s of Kazakhstan’s mail and UI components for it. Participated in migrating main project from AngularJS to Angular 6."))),r.createElement(E,null,r.createElement(C,{title:"Yota",subtitle:"Cell phone provider. Saint-Petersburg, summer internship",isLast:!0},r.createElement(v,null,"Created interactive reports with gallery and diffs comparison for screenshoot testing utility.")))),r.createElement(m,null,r.createElement(E,null,r.createElement(y,null,"More"),r.createElement(v,null,"I like frivolous storytelling on Instagram, discover new places and people. Sometimes I even think that I am a creative designer and writer (but actually I am not)."),r.createElement(v,null,"I grew up in Novouralsk, harsh Russia. Graduated as software engineer from Saint Petersburg Aerospace Instrumentation University."),r.createElement(v,null,"During school years bought my first iPad with money earned from creation e-commerce web-sites."),r.createElement(v,null,"Take a peek at my ",r.createElement("a",{href:"/assets/resume-2020.pdf",target:"_blank"},"resume"),". Say hey over ",r.createElement("a",{href:"mailto:hello.boriskas@gmail.com"},"mail")," or ",r.createElement("a",{href:"https://www.linkedin.com/in/dsitdikov/",target:"_blank"},"LinkedIn"),".")),r.createElement(E,{isNotHoverable:!0},r.createElement(y,{isNotFirst:!0},"Side projects")),r.createElement(E,null,r.createElement(C,{title:"Standards",subtitle:"standards.eigenspace.team"},r.createElement(v,null,"Implemented rules for code linter, contributed to team rules in project, created a commit linter utility."))))))}},null),document.getElementById("app"))}]);
