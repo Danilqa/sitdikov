@@ -27,7 +27,7 @@ export class App extends PureComponent {
                     </Column>
                     <Column>
                         <HiddenSurface isNotHoverable>
-                            <Header>Experience</Header>
+                            <Header>Briefly about work</Header>
                         </HiddenSurface>
                         <HiddenSurface>
                             <Case title='Arrival' subtitle='Electrical vehicles. London'>
@@ -88,12 +88,13 @@ export class App extends PureComponent {
                                 e-commerce web-sites.
                             </Paragraph>
                             <Paragraph>
-                                Take a peek at my resume. Say hey over mail or LinkedIn.
+                                Take a peek at my <a href='/assets/resume-2020.pdf' target='_blank'>resume</a>.
+                                Say hey over <a href='mailto:hello.boriskas@gmail.com'>mail</a> or <a href='https://www.linkedin.com/in/dsitdikov/' target='_blank'>LinkedIn</a>.
                             </Paragraph>
                         </HiddenSurface>
 
                         <HiddenSurface isNotHoverable>
-                            <Header>Side projects</Header>
+                            <Header isNotFirst>Side projects</Header>
                         </HiddenSurface>
                         <HiddenSurface>
                             <Case title='Standards' subtitle='standards.eigenspace.team'>

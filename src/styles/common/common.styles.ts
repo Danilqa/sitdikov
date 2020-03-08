@@ -10,4 +10,9 @@ export const Global = css`
         color: ${Theme.color.secondary};
         background: ${Theme.color.primary};
     }
+
+    a {
+        color: ${Theme.color.primary};
+        text-decoration: none;
+    }
 `;

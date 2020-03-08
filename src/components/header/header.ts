@@ -1,8 +1,12 @@
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 import { size } from '../../styles/mixins';
 import { Theme } from '../app.theme';
 
-export const Header = styled.h1`
+interface Props {
+    isNotFirst?: boolean;
+}
+
+export const Header = styled.h1<Props>`
     font-size: ${size(20)};
     margin-bottom: ${size(Theme.sizeRatio * 8)};
     font-weight: bold;
@@ -11,7 +15,9 @@ export const Header = styled.h1`
         margin-bottom: ${size(Theme.sizeRatio * 4)};
     }
     
-    &:not(:first-of-type) {
-        margin-top: ${size(Theme.sizeRatio * 8)};
-    }
+    ${props => props.isNotFirst && isNotFirstStyles}
+`;
+
+const isNotFirstStyles = css`
+    margin-top: ${size(Theme.sizeRatio * 12)};
 `;
