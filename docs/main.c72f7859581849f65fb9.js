@@ -83,7 +83,7 @@ Object.defineProperty(t,"__esModule",{value:!0});var n=null,r=!1,a=3,o=-1,i=-1,l
 
     a {
         color: ${s.color.primary};
-        text-decoration: none;
+        text-decoration: underline;
     }
 `,d=o.a`${l}${f}`,p=o.c.div`
     display: flex;

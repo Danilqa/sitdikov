@@ -13,6 +13,6 @@ export const Global = css`
 
     a {
         color: ${Theme.color.primary};
-        text-decoration: none;
+        text-decoration: underline;
     }
 `;
