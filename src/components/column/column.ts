@@ -1,8 +1,9 @@
 import styled from 'styled-components';
 import { size } from '../../styles/mixins';
 import { Theme } from '../app.theme';
+import * as React from 'react';
 
-export const Column = styled.div`
+export const Column = React.memo(styled.div`
     width: ${size(Theme.column.width)};
     height: 100%;
     flex-grow: 1;
@@ -19,4 +20,4 @@ export const Column = styled.div`
             margin-bottom: ${size(40)};
         }
     }
-`;
+`);

@@ -1,10 +1,11 @@
 import styled from 'styled-components';
 import { size } from '../styles/mixins';
 import { Theme } from './app.theme';
+import * as React from 'react';
 
 const mobilePadding = size(Theme.wrapper.padding / 2);
 
-export const Wrapper = styled.div`
+export const Wrapper = React.memo(styled.div`
     display: flex;
     flex-wrap: wrap;
     max-width: ${size(Theme.wrapper.width)};
@@ -14,4 +15,4 @@ export const Wrapper = styled.div`
     @media screen and (max-width: ${size(Theme.breakpoints.mobile)}) {
         padding: ${mobilePadding} ${mobilePadding} 0 ${mobilePadding};
     }
-`;
+`);
