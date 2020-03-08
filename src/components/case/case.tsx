@@ -6,15 +6,17 @@ interface Props {
     title: string;
     subtitle: string;
     isLast?: boolean;
+    url?: string;
 }
 
 export class Case extends PureComponent<Props> {
 
     render(): ReactNode {
-        const { title, subtitle, children, isLast } = this.props;
+        const { title, subtitle, children, url, isLast } = this.props;
 
+        const isLink = Boolean(url);
         return (
-            <CaseContainer isLast={isLast}>
+            <CaseContainer isLast={isLast} isLink={isLink} href={url} target='_blank'>
                 <Title>{title}</Title>
                 <SubTitle>{subtitle}</SubTitle>
                 {children}

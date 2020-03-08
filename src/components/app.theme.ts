@@ -6,8 +6,10 @@ const numberOfColumnsInRow = 3;
 const breakpoints = {
     mobile: column.width * numberOfColumnsInRow + column.margin * (numberOfColumnsInRow - 1) + wrapper.padding * 2
 };
+const base = { fontSize: 17 };
 
 export const Theme = {
+    base,
     color,
     sizeRatio,
     wrapper,

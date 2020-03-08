@@ -4,11 +4,14 @@ import { Theme } from '../app.theme';
 
 interface CaseContainerProps {
     isLast?: boolean;
+    isLink?: boolean;
 }
 
-export const CaseContainer = styled.div<CaseContainerProps>`
+export const CaseContainer = styled.a<CaseContainerProps>`
+    display: block;
     position: relative;
-    ${props => !props.isLast && sectionDivider}
+    ${props => !props.isLast && sectionDivider};
+    text-decoration: none;
 `;
 
 const sectionDivider = css`

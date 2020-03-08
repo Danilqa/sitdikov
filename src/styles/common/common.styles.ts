@@ -4,6 +4,12 @@ import { Theme } from '../../components/app.theme';
 export const Global = css`
     html {
         font-family: 'Poppins', sans-serif;
+        font-size: ${Theme.base.fontSize}px;
+        line-height: 1.3;
+    }
+
+    body {
+        font-size: 1rem;
     }
 
     ::selection {

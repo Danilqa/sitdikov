@@ -7,6 +7,7 @@ import { Header } from './header/header';
 import { Paragraph } from './paragraph/paragraph';
 import { Case } from './case/case';
 import { HiddenSurface } from './hidden-surface/hidden-surface';
+import { Avatar } from './avatar/avatar';
 
 export class App extends PureComponent {
 
@@ -18,6 +19,7 @@ export class App extends PureComponent {
                     <Column>
                         <HiddenSurface>
                             <Header>Daniil Sitdikov</Header>
+                            <Avatar/>
                             <Paragraph>
                                 Product software engineer. Mostly experienced in front-end.
                                 I like a good development culture, clear abstractions and invent
@@ -97,7 +99,11 @@ export class App extends PureComponent {
                             <Header isNotFirst>Side projects</Header>
                         </HiddenSurface>
                         <HiddenSurface>
-                            <Case title='Standards' subtitle='standards.eigenspace.team'>
+                            <Case
+                                title='Standards'
+                                url='https://standards.eigenspace.team/'
+                                subtitle='standards.eigenspace.team'
+                            >
                                 <Paragraph>
                                     Implemented rules for code linter, contributed to team rules in project,
                                     created a commit linter utility.

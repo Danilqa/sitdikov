@@ -13,9 +13,6 @@ export const Resets = css`
 
         height: 100%;
 
-        font-size: 14px;
-        line-height: 1.3;
-
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
     }
