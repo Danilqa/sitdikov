@@ -103,6 +103,7 @@ export class App extends PureComponent {
                                 title='Standards'
                                 url='https://standards.eigenspace.team/'
                                 subtitle='standards.eigenspace.team'
+                                isLast
                             >
                                 <Paragraph>
                                     Implemented rules for code linter, contributed to team rules in project,
