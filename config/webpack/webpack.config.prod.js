@@ -18,11 +18,16 @@ module.exports = {
     },
     output: {
         filename: '[name].[hash].js',
-        path: path.resolve(__dirname, '../../public')
+        path: path.resolve(__dirname, '../../docs')
     },
     plugins: [
-        new CleanWebpackPlugin(path.resolve(__dirname, '../public')),
-        new HtmlWebpackPlugin({ template: './res/index.html' }),
+        new CleanWebpackPlugin(
+            'docs',
+            {
+                root: path.resolve(__dirname, '../../')
+            }
+        ),
+        new HtmlWebpackPlugin({ template: './public/index.html' }),
         new CopyWebpackPlugin([
             { from: 'src/assets', to: 'assets' }
         ])

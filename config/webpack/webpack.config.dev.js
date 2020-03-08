@@ -18,15 +18,15 @@ module.exports = {
     },
     output: {
         filename: 'bundle.js',
-        path: path.resolve(__dirname, '../../dist')
+        path: path.resolve(__dirname, '../../docs')
     },
     devServer: {
-        contentBase: path.resolve(__dirname, '../../dist'),
+        contentBase: path.resolve(__dirname, '../../docs'),
         historyApiFallback: true,
         port: 3000
     },
     plugins: [
-        new HtmlWebpackPlugin({ template: './public/index.html' }),
+        new HtmlWebpackPlugin({ template: './docs/index.html' }),
         new CopyWebpackPlugin([
             { from: 'src/assets', to: 'assets' }
         ])
