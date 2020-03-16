@@ -34,13 +34,20 @@ export class App extends PureComponent {
                         <HiddenSurface>
                             <Case title='Arrival' subtitle='Electrical vehicles. London'>
                                 <Paragraph>
-                                    Interacted with stakeholders, worked on MVP — Data Studio project. It’s about
+                                    Interacted with stakeholders, worked on Data Studio project. It’s about
                                     storing all business data in one place, updating and showing relations between
-                                    them in the graph and in the table.
+                                    them in the graph or in the grid.
                                 </Paragraph>
                                 <Paragraph>
-                                    Created UI components library with 100% test code coverage with user
-                                    documentation.
+                                    Created UI components library with 100% test code coverage and auto-generated
+                                    user documentation.
+                                </Paragraph>
+                                <Paragraph>
+                                    Researched &nbsp;
+                                    <a
+                                        target='_blank'
+                                        href='https://medium.com/eigenspace/what-instrument-should-i-select-for-prototyping-d2887d95958d'
+                                    >the prototyping instruments</a>, especially — Framer X.
                                 </Paragraph>
                             </Case>
                         </HiddenSurface>
@@ -77,13 +84,13 @@ export class App extends PureComponent {
                         <HiddenSurface>
                             <Header>More</Header>
                             <Paragraph>
+                                I grew up in Novouralsk, harsh Russia. Graduated as software engineer
+                                from Saint Petersburg Aerospace Instrumentation University.
+                            </Paragraph>
+                            <Paragraph>
                                 I like frivolous storytelling on Instagram, discover new places and
                                 people. Sometimes I even think that I am a creative designer and
                                 writer (but actually I am not).
-                            </Paragraph>
-                            <Paragraph>
-                                I grew up in Novouralsk, harsh Russia. Graduated as software engineer
-                                from Saint Petersburg Aerospace Instrumentation University.
                             </Paragraph>
                             <Paragraph>
                                 During school years bought my first iPad with money earned from creation
@@ -91,7 +98,10 @@ export class App extends PureComponent {
                             </Paragraph>
                             <Paragraph>
                                 Take a peek at my <a href='/assets/resume-2020.pdf' target='_blank'>resume</a>.
-                                Say hey over <a href='mailto:hello.boriskas@gmail.com'>mail</a> or <a href='https://www.linkedin.com/in/dsitdikov/' target='_blank'>LinkedIn</a>.
+                                Say hey over <a href='mailto:hello.boriskas@gmail.com'>mail</a> or <a
+                                    href='https://www.linkedin.com/in/dsitdikov/'
+                                    target='_blank'
+                                >LinkedIn</a>.
                             </Paragraph>
                         </HiddenSurface>
 
