@@ -6,6 +6,8 @@ export const Global = css`
         font-family: 'Poppins', sans-serif;
         font-size: ${Theme.base.fontSize}px;
         line-height: 1.3;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
     }
 
     body {
