@@ -26,6 +26,29 @@ export class App extends PureComponent {
                                 something awesome for products.
                             </Paragraph>
                         </HiddenSurface>
+                        <HiddenSurface>
+                            <Header isNotFirst>More</Header>
+                            <Paragraph>
+                                I grew up in Novouralsk, harsh Russia. Graduated as software engineer
+                                from Saint Petersburg Aerospace Instrumentation University.
+                            </Paragraph>
+                            <Paragraph>
+                                I like frivolous storytelling on Instagram, discover new places and
+                                people. Sometimes I even think that I am a creative designer and
+                                writer (but actually I am not).
+                            </Paragraph>
+                            <Paragraph>
+                                During school years bought my first iPad with money earned from creation
+                                e-commerce web-sites.
+                            </Paragraph>
+                            <Paragraph>
+                                Take a peek at my <a href='/assets/resume-2020.pdf' target='_blank'>resume</a>.
+                                Say hey over <a href='mailto:hello.boriskas@gmail.com'>mail</a> or <a
+                                    href='https://www.linkedin.com/in/dsitdikov/'
+                                    target='_blank'
+                                >LinkedIn</a>.
+                            </Paragraph>
+                        </HiddenSurface>
                     </Column>
                     <Column>
                         <HiddenSurface isNotHoverable>
@@ -34,9 +57,12 @@ export class App extends PureComponent {
                         <HiddenSurface>
                             <Case title='Arrival' subtitle='Electrical vehicles. London'>
                                 <Paragraph>
-                                    Interacted with stakeholders, worked on Data Studio project. It’s about
+                                    Implemented Data Studio MVP. It’s about
                                     storing all business data in one place, updating and showing relations between
                                     them in the graph or in the grid.
+                                </Paragraph>
+                                <Paragraph>
+                                    Implemented Invoice Management product prototype.
                                 </Paragraph>
                                 <Paragraph>
                                     Created UI components library with 100% test code coverage and auto-generated
@@ -75,38 +101,14 @@ export class App extends PureComponent {
                             >
                                 <Paragraph>
                                     Created interactive reports with gallery and diffs comparison for screenshoot
-                                    testing utility.
+                                    testing utility. Started and finished project from the scratch.
                                 </Paragraph>
                             </Case>
                         </HiddenSurface>
                     </Column>
                     <Column>
-                        <HiddenSurface>
-                            <Header>More</Header>
-                            <Paragraph>
-                                I grew up in Novouralsk, harsh Russia. Graduated as software engineer
-                                from Saint Petersburg Aerospace Instrumentation University.
-                            </Paragraph>
-                            <Paragraph>
-                                I like frivolous storytelling on Instagram, discover new places and
-                                people. Sometimes I even think that I am a creative designer and
-                                writer (but actually I am not).
-                            </Paragraph>
-                            <Paragraph>
-                                During school years bought my first iPad with money earned from creation
-                                e-commerce web-sites.
-                            </Paragraph>
-                            <Paragraph>
-                                Take a peek at my <a href='/assets/resume-2020.pdf' target='_blank'>resume</a>.
-                                Say hey over <a href='mailto:hello.boriskas@gmail.com'>mail</a> or <a
-                                    href='https://www.linkedin.com/in/dsitdikov/'
-                                    target='_blank'
-                                >LinkedIn</a>.
-                            </Paragraph>
-                        </HiddenSurface>
-
                         <HiddenSurface isNotHoverable>
-                            <Header isNotFirst>Side projects</Header>
+                            <Header>Side projects</Header>
                         </HiddenSurface>
                         <HiddenSurface>
                             <Case
@@ -116,8 +118,48 @@ export class App extends PureComponent {
                                 isLast
                             >
                                 <Paragraph>
-                                    Implemented rules for code linter, contributed to team rules in project,
-                                    created a commit linter utility.
+                                    Implemented rules for code linter, contributed to team rules in project and
+                                    UI browser testing library. Created a commit linter and performance testing
+                                    utilities.
+                                </Paragraph>
+                            </Case>
+                        </HiddenSurface>
+                        <HiddenSurface>
+                            <Case
+                                title='Emma'
+                                url='https://sitdikov.tech/emma'
+                                subtitle='Online tutor'
+                                isLast
+                            >
+                                <Paragraph>
+                                   Just asks you random questions in English.
+                                </Paragraph>
+                            </Case>
+                        </HiddenSurface>
+
+                        <HiddenSurface isNotHoverable>
+                            <Header isNotFirst>Hackatons</Header>
+                        </HiddenSurface>
+                        <HiddenSurface>
+                            <Case
+                                title='Digital Breakout 2019'
+                                url='https://www.linkedin.com/posts/dsitdikov_it-was-the-final-of-digital-breakdown-the-activity-6586180236222709760-5nH-'
+                                subtitle='3-th place | The biggest by Guinness Records'
+                            >
+                                <Paragraph>
+                                    Implemented proof of concept project: autonomous hiring and digital profiles
+                                </Paragraph>
+                            </Case>
+                        </HiddenSurface>
+                        <HiddenSurface>
+                            <Case
+                                title='Hackalong'
+                                url='https://devpost.com/software/gitbattle'
+                                subtitle='1-st place | devpost.com'
+                                isLast
+                            >
+                                <Paragraph>
+                                    Implemented GitBattle project: contests for open source contributors
                                 </Paragraph>
                             </Case>
                         </HiddenSurface>
