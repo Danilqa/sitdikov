@@ -22,8 +22,8 @@ export class App extends PureComponent {
                             <Avatar/>
                             <Paragraph>
                                 Product software engineer. Mostly experienced in front-end.
-                                I like a good development culture, clear abstractions and invent
-                                something awesome for products.
+                                I like a good development culture, clear abstractions, and
+                                invent something extraordinary for products.
                             </Paragraph>
                         </HiddenSurface>
                         <HiddenSurface>
@@ -33,9 +33,9 @@ export class App extends PureComponent {
                                 from Saint Petersburg Aerospace Instrumentation University.
                             </Paragraph>
                             <Paragraph>
-                                I like frivolous storytelling on Instagram, discover new places and
-                                people. Sometimes I even think that I am a creative designer and
-                                writer (but actually I am not).
+                                I change my behavior through cognitive behavioral therapy and a mentor.
+                                Also, I am the creator of a podcast about healthy communication. Sometimes
+                                I even think that I am a creative designer and writer (but actually I am not :D)
                             </Paragraph>
                             <Paragraph>
                                 During school years bought my first iPad with money earned from creation
@@ -55,7 +55,18 @@ export class App extends PureComponent {
                             <Header>Briefly about work</Header>
                         </HiddenSurface>
                         <HiddenSurface>
-                            <Case title='Arrival' subtitle='Electrical vehicles. London'>
+                            <Case title='Arrival' subtitle='Electrical vehicles, robotics, city-solutions. London'>
+                                <Paragraph>
+                                    <a href='https://www.linkedin.com/pulse/linkedin-top-startups-2020-10-uk-companies-watch-emily-spaven/'>
+                                        Startup #1 of 2020 based according to LinkedIn.
+                                    </a>
+                                </Paragraph>
+                                <Paragraph>
+                                    Implemented project for the accounting department. It's about the
+                                    digitization of supplier invoices for payment. Technically, it's a pipeline with
+                                    processes like recognition in AI service, enrichment by business data from
+                                    other data sources, and exporting to the payment system.
+                                </Paragraph>
                                 <Paragraph>
                                     Implemented Data Studio MVP. It’s about
                                     storing all business data in one place, updating and showing relations between
@@ -89,6 +100,8 @@ export class App extends PureComponent {
                             <Case title='VeeRoute' subtitle='Fleet management, sheduling and routing. Saint-Petersburg'>
                                 <Paragraph>
                                     Created panel for logistician’s of Kazakhstan’s mail and UI components for it.
+                                </Paragraph>
+                                <Paragraph>
                                     Participated in migrating main project from AngularJS to Angular 6.
                                 </Paragraph>
                             </Case>
@@ -132,7 +145,7 @@ export class App extends PureComponent {
                                 isLast
                             >
                                 <Paragraph>
-                                   Just asks you random questions in English.
+                                    Just asks you random questions in English.
                                 </Paragraph>
                             </Case>
                         </HiddenSurface>
