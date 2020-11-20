@@ -24,6 +24,9 @@ export class App extends PureComponent {
                                 Product software engineer. Mostly experienced in front-end.
                                 I like a good development culture, clear abstractions, and
                                 invent something extraordinary for products.
+                                <br/><br/>
+                                My favorite keywords: design-driven development,
+                                test-driven development, and DevOps.
                             </Paragraph>
                         </HiddenSurface>
                         <HiddenSurface>
@@ -43,10 +46,7 @@ export class App extends PureComponent {
                             </Paragraph>
                             <Paragraph>
                                 Take a peek at my <a href='/assets/resume-2020.pdf' target='_blank'>resume</a>.
-                                Say hey over <a href='mailto:hello.boriskas@gmail.com'>mail</a> or <a
-                                    href='https://www.linkedin.com/in/dsitdikov/'
-                                    target='_blank'
-                                >LinkedIn</a>.
+                                Say hey over <a href='mailto:hello.boriskas@gmail.com'>mail</a> or <a href='https://www.linkedin.com/in/dsitdikov/' target='_blank'>LinkedIn</a>.
                             </Paragraph>
                         </HiddenSurface>
                     </Column>
