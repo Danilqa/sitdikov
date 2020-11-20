@@ -58,7 +58,7 @@ export class App extends PureComponent {
                             <Case title='Arrival' subtitle='Electrical vehicles, robotics, city-solutions. London'>
                                 <Paragraph>
                                     <a href='https://www.linkedin.com/pulse/linkedin-top-startups-2020-10-uk-companies-watch-emily-spaven/'>
-                                        Startup #1 of 2020 based according to LinkedIn.
+                                        Startup #1 of 2020 according to LinkedIn.
                                     </a>
                                 </Paragraph>
                                 <Paragraph>
